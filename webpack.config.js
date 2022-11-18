@@ -16,14 +16,7 @@ module.exports = {
         include: /src/,
         use: [
           MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: {
-              modules: {
-                auto: true,
-              },
-            },
-          },
+          'css-loader',
           {
             loader: 'postcss-loader',
             options: {

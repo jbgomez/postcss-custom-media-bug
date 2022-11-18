@@ -1,4 +1,4 @@
-import './css.module.scss';
+import './styles.scss';
 
 const element = document.querySelector('div');
 
