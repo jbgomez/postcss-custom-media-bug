@@ -1,11 +1,5 @@
 import './css.module.scss';
 
-function component() {
-  const element = document.createElement('div');
+const element = document.querySelector('div');
 
-  element.innerHTML = 'Hello, world!';
-
-  return element;
-}
-
-document.body.appendChild(component());
+element.innerHTML = 'Hello, world!';

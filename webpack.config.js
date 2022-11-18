@@ -38,8 +38,8 @@ module.exports = {
                     importFrom: [
                       {
                         customMedia: {
-                          '--min-width-small': `(min-width: 640px)`,
-                          '--max-width-medium': `(min-width: 768px)`,
+                          '--min-width-small': `(min-width: 1024px)`,
+                          '--max-width-medium': `(max-width: 1440px)`,
                         },
                       },
                     ],
